@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('/images/bg-pattern-design-pages-intro-mobile.svg')",
       },
+      colors: {
+        'salmon': '#E7816B',
+      },
+      scale: {
+        '200': '2.00',
+      },
+      rotate: {
+        '270': '270deg',
+      }
     },
   },
   plugins: [],
