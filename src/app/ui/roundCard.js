@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function RoundCard ({title,imageLoc,message,rotate}) {
     const rotateDegree = "rotate-"+rotate;
     return (
-        <div className="w-80 flex flex-col justify-center items-center gap-5 ">
-            <div className="grid place-items-center w-52 h-52 relative" 
+        <div className=" flex flex-col justify-center items-center gap-5 ">
+            <div className="grid place-items-center w-1/2 aspect-square relative" 
             // style={{ 
             //     backgroundImage : `url('images/bg-pattern-hero-home.svg')`, 
             //     backgroundPosition: "center" , 
@@ -15,15 +15,13 @@ export default function RoundCard ({title,imageLoc,message,rotate}) {
                 >
                 <Image  
                     src={imageLoc}
-                    width = {188}
-                    height = {162}
+                    fill
                     alt = "ilustrasi" 
                     className="absolute z-10"      
                 />               
                 <Image  
                     src={'images/bg-pattern-hero-home.svg'}
-                    width = {188}
-                    height = {162}
+                   fill
                     alt = "ilustrasi" 
                     className= {rotateDegree}
                           
