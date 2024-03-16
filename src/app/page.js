@@ -3,7 +3,7 @@ import Hero from "./ui/hero";
 import Cards from "./ui/card";
 import RoundCard from "./ui/roundCard";
 import Footer from "./ui/footer";
-
+import Link from "next/link";
 
 
 export default function Home() {
@@ -11,9 +11,18 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Hero/>
       <div className="flex flex-col item-center gap-4 mt-32 w-11/12">
-        <Cards gambarBg="/images/image-web-design.jpg" title="WEB DESIGN" />
-        <Cards gambarBg="/images/image-app-design.jpg" title="APP DESIGN" />
-        <Cards gambarBg="/images/image-graphic-design.jpg" title="GRAPHIC DESIGN" />
+        <Link href="/web-design">
+          <Cards gambarBg="/images/image-web-design.jpg" title="WEB DESIGN" />
+        </Link>
+        <Link href="/app-design">
+          <Cards gambarBg="/images/image-app-design.jpg" title="APP DESIGN" />
+        </Link>
+        <Link href="/graphic-design">
+          <Cards gambarBg="/images/image-graphic-design.jpg" title="GRAPHIC DESIGN" />
+        </Link>
+        
+        
+        
       </div>
       <div className="flex flex-col item-center gap-y-20 mt-32 w-11/12">
         <RoundCard title="passionate" imageLoc="/images/illustration-passionate.svg" 
