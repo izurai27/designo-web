@@ -4,7 +4,7 @@ export default function Cards ({gambarBg,title}){
     const bgImage = "bg-"+gambarBg;
    
     return (
-        <div className={` rounded-lg h-60 flex flex-col justify-center items-center text-white`}
+        <div className={` rounded-lg h-60 flex flex-col justify-center items-center text-white cursor-pointer`}
             style={{ 
                 backgroundImage : `url(${gambarBg})`,
                 backgroundRepeat : 'no-repeat',

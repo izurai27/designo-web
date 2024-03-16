@@ -12,6 +12,12 @@ module.exports = {
       },
       colors: {
         'salmon': '#E7816B',
+        'peach':'#E7816B',
+        'light-peach':'#FFAD9B',
+        'buraku': '#1D1C1E',
+        'dark-grey' : '#333136',
+        'light-grey' : '#F1F3F5',
+       
       },
       scale: {
         '200': '2.00',
