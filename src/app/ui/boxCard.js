@@ -6,8 +6,8 @@ export default function BoxCard ({imageLoc,title,msg}){
             {/* <div className="aspect-[327/320]">
             </div>  */}
             <img src={`${imageLoc}`} alt="ilustration" className="aspect-[327/320]" />
-            <div className=" p-3">
-                <h1 className="text-center text-peach">{title}</h1>  
+            <div className="bg-light-pink flex flex-col gap-6 p-6">
+                <h1 className="text-center text-peach text-xl tracking-widest">{title}</h1>  
                 <p  className="text-center">{msg}</p>
             </div>
         </div>

@@ -17,14 +17,17 @@ module.exports = {
         'buraku': '#1D1C1E',
         'dark-grey' : '#333136',
         'light-grey' : '#F1F3F5',
-       
+        'light-pink' : '#FDF3F0',
       },
       scale: {
         '200': '2.00',
       },
       rotate: {
         '270': '270deg',
-      }
+      },
+      letterSpacing: {
+        widest: '.25em',
+      },
     },
   },
   plugins: [],
