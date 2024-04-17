@@ -17,7 +17,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <MyMap position = {[-6.3917684937007, 106.82482178502292]}/>
+      <MyMap position = {[43.64406824828923, -79.39471056370772]}/>
+      <MyMap position = {[-30.329120282582846, 149.78819686212694]}/>
+      <MyMap position = {[53.710382231232465, -1.341765475489559]}/>
       <img src="/images/about/mobile/image-about-hero.jpg" alt="hero" className="w-full h-auto" />
       <div className="bg-salmon bg-hero-pattern bg-right-top w-full aspect-[7/6] flex flex-col gap-3 justify-center items-center p-5 text-white">
         <h1 className="text-center text-4xl">About Us</h1>
