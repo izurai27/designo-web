@@ -1,4 +1,6 @@
 
+"use client";
+
 import Hero from "../ui/hero";
 import Cards from "../ui/card";
 import RoundCard from "../ui/roundCard";
@@ -8,8 +10,11 @@ import BoxCard from "../ui/boxCard";
 import Link from "next/link";
 import RoundCardAbout from "../ui/roundCardAbout";
 import MyMap from "../ui/map";
+import React from 'react';
 
 export default function Home() {
+ 
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <MyMap />
