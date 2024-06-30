@@ -17,9 +17,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <MyMap position = {[43.64406824828923, -79.39471056370772]}/>
+      {/* <MyMap position = {[43.64406824828923, -79.39471056370772]}/>
       <MyMap position = {[-30.329120282582846, 149.78819686212694]}/>
-      <MyMap position = {[53.710382231232465, -1.341765475489559]}/>
+      <MyMap position = {[53.710382231232465, -1.341765475489559]}/> */}
       
       
       <Footer/>
