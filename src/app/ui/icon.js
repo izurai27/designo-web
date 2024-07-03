@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function IconBrand ({src,dest}) {
+export default function IconBrand ({src}) {
     return (
         <div >
             <Image
