@@ -34,11 +34,12 @@ const Footer = () => {
                     <p>M : contact@designo.co</p>
                 </div>
                 <div className="flex gap-3 mx-auto">
-                    <IconBrand src="/images/facebook.png"/>
+                    {/* <IconBrand src="/images/facebook.png"/>
                     <IconBrand src="/images/youtube.png"/>
                     <IconBrand src="/images/twitter.png"/>
                     <IconBrand src="/images/pinterest.png"/>
-                    <IconBrand src="/images/instagram.png"/>
+                    <IconBrand src="/images/instagram.png"/> */}
+                    bla
                 </div>
             </div>
         </div>
